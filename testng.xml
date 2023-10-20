@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name = "simple checks">
+
+    <test name = "math operations">
+        <classes>
+            <class name = "MathCheck" />
+        </classes>
+    </test>
+
+    <test name = "string operations">
+        <classes>
+            <class name = "StringCheck" />
+        </classes>
+    </test>
+
+</suite>
